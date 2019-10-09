@@ -1,0 +1,105 @@
+<!-- cards - meus projetos -->
+    
+    <section class="py-5">
+        <div class="container text-center">
+
+            <h3>Portfólio</h3>
+            <!-- cards -->
+
+            <!-- CARD 1 -->
+            <div class=" flex-colum row-lg justify-content-center m-2 ">
+                <div class="card tamanho-card mx-2">
+                        <img class="card-img-top img-cards" src="./assets/images/modal-01.png" alt="Imagem de capa do card">
+                        <div class="card-body">
+                            <h5 class="card-title">Título do card</h5>
+                            <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o conteúdo do card.</p>
+                            <a href="#" class="btn text-white bg-roxo text-white" data-toggle="modal" data-target="#modal01">Visitar</a>
+                        </div>
+                    </div>
+                        <!-- MODAL CARD 01 -->
+                        <div class="modal" tabindex="-1" role="dialog" id="modal01">
+                                <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                    <h5 class="modal-title">Projeto com clientes reais</h5>
+                                    <button type="button bg-roxo text-white" class="close" data-dismiss="modal" aria-label="Fechar">
+                                        <span aria-hidden="true">×</span>
+                                    </button>
+                                    </div>
+                                    <div class="modal-body">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, corrupti culpa ut tempore laborum ea dolorem fugit repellat vitae,em porro ducimus!</p>
+                                    <img class="img-cards-modal" src="./assets/images/modal-01.png" alt="">
+                                    </div>
+                                    <div class="modal-footer">
+                                    <button type="button"  class="btn bg-roxo text-white"" data-dismiss="modal">Fechar</button>
+                                    <button type="button " class="btn bg-roxo text-white">Visitar site</button>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                    <!-- CARD 2 -->
+                    <div class="card tamanho-card mx-2 ">
+                            <img class="card-img-top img-cards" src="./assets/images/moon-viagens.png"alt="Imagem de capa do card">
+                            <div class="card-body">
+                                <h5 class="card-title">Título do card</h5>
+                                <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o conteúdo do card.</p>
+                                <a href="#" class="btn  bg-roxo text-white" data-toggle="modal" data-target="#modal02">Visitar</a>
+                            </div>
+                        </div>
+                        <!-- MODAL CARD 02 -->
+                        <div class="modal" tabindex="-1" role="dialog" id="modal02">
+                                <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                    <h5 class="modal-title">Título do modal</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                                        <span aria-hidden="true">×</span>
+                                    </button>
+                                    </div>
+                                    <div class="modal-body">
+                                    <p>Texto do corpo do modal, é aqui.</p>
+                                    <img class="img-cards-modal" src="./assets/images/moon-viagens.png"alt="Imagem de capa do card">
+                                    </div>
+                                    <div class="modal-footer">
+                                    <button type="button" class="btn  bg-roxo text-white" data-dismiss="modal">Fechar</button>
+                                    <button type="button" class="btn bg-roxo text-white">Salvar mudanças</button>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                        <!-- CARD 3 -->
+                        <div class="card tamanho-card mx-2">
+                                <img class="card-img-top img-cards" src="./assets/images/modal-03.png" alt="Imagem de capa do card">
+                                <div class="card-body">
+                                    <h5 class="card-title">M de Maravilhosa</h5>
+                                    <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o conteúdo do card.</p>
+                                    <a href="#" class="btn  bg-roxo text-white" data-toggle="modal" data-target="#modal03">Visitar</a>
+                                </div>
+                        </div>
+                        <!-- MODAL CARD 03 -->
+                        <div class="modal" tabindex="-1" role="dialog" id="modal03">
+                                <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                    <h5 class="modal-title">Título do modal</h5>
+                                    <button type="button" class="close bg-roxo text-white" data-dismiss="modal" aria-label="Fechar">
+                                        <span aria-hidden="true">×</span>
+                                    </button>
+                                    </div>
+                                    <div class="modal-body">
+                                    <p>Texto do corpo do modal, é aqui.</p>
+                                    <img class="img-cards-modal" src="./assets/images/modal-03.png" alt="Imagem de capa do card">
+                                    </div>
+                                    <div class="modal-footer">
+                                    <button type="button bg-roxo text-white" class="btn  bg-roxo text-white" data-dismiss="modal">Fechar</button>
+                                    <a href="https://reprograma.github.io/T8-projeto1-m-de-maravilhosa/personalidade/maria-da-gloria/index.html"><button type="button bg-roxo text-white" class="btn  bg-roxo text-white"> Ver Site</button></a>
+                                    
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                    </div> 
+                </div>
+
+
+    </section>
